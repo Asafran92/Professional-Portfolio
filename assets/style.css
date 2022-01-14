@@ -43,21 +43,29 @@ header nav ul li a {
 
 }
 .me {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
+    display: flex;
+    padding: 50px;
+}
+
+.flex-row-about-me {
+    flex: 1;
+    flex-wrap: wrap;
+    padding-right: 25px;
     text-align: center;
 }
-.about-me {
+
+.flex-row-description {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    border-left: 5px solid var(--wording-color);
+    padding-left: 10px;
 
 }
-.sections {
-    border-right: 5px solid var(--wording-color);
-    display: flex;
 
+.me {
+    color: var(--wording-color);
+    text-align: right;
 }
-.sections>* {
-    flex: 1 50%;
-}
+
+
