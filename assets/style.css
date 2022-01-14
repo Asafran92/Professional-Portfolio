@@ -1,6 +1,9 @@
+:root {
+    --wording-color: rgb(105, 139, 189);
+}
+
 /*apply universal styles*/
 * {
-    background-color: rgb(28, 168, 211);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,5 +11,35 @@
 /*apply body font styloing*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+header {
+    background-image: url("../images/—Pngtree—abstract\ blue\ and\ white\ background_322099.png");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 25px;
+}
+header h1 {
+    color: var(--wording-color);
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color: var(--wording-color);
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+
 }
 
