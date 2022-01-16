@@ -14,7 +14,7 @@ body {
 
 }
 header {
-    background-image: url("../images/—Pngtree—abstract\ blue\ and\ white\ background_322099.png");
+    background-image: url("../images/william-daigneault-Cd84YdL9px8-unsplash.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -42,11 +42,22 @@ header nav ul li a {
     font-size: 1.55vw;
 
 }
+.hero {
+    background-image: url(../images/william-daigneault-Cd84YdL9px8-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.hero h2 {
+    color: var(--wording-color);
+}
 .me {
     display: flex;
     padding: 50px;
     color: var(--wording-color);
-    text-align: right;
 }
 
 .flex-row-about-me {
@@ -65,30 +76,51 @@ header nav ul li a {
 
 }
 
-.work-board {
-    display: flex;
-}
-
 .work {
     display: flex;
     padding: 50px;
     color: var(--wording-color);
 }
 
-
-.pictures {
+.my-work {
     display: flex;
+    padding-right: 25px;
+}
+
+
+.work-pictures {
     flex-wrap: wrap;
+    justify-content: space-evenly;
     border-left: 5px solid var(--wording-color);
     padding-left: 10px;
-    justify-content: space-evenly
 }
-
-
-
-/*
-.item {
+img {
     height: 250px;
-    width: 250px;
+    width: 350px;
 }
-*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 25px;
+}
+footer h2 {
+        color: var(--wording-color);
+        margin: 0;
+        font-size: 35px;
+}
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+footer nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+footer a {
+    text-decoration: none;
+    color: var(--wording-color);
+}
