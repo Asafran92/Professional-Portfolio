@@ -45,6 +45,8 @@ header nav ul li a {
 .me {
     display: flex;
     padding: 50px;
+    color: var(--wording-color);
+    text-align: right;
 }
 
 .flex-row-about-me {
@@ -63,9 +65,30 @@ header nav ul li a {
 
 }
 
-.me {
+.work-board {
+    display: flex;
+}
+
+.work {
+    display: flex;
+    padding: 50px;
     color: var(--wording-color);
-    text-align: right;
 }
 
 
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 5px solid var(--wording-color);
+    padding-left: 10px;
+    justify-content: space-evenly
+}
+
+
+
+/*
+.item {
+    height: 250px;
+    width: 250px;
+}
+*/
